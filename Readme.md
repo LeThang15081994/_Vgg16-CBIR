@@ -3,7 +3,7 @@
 ## Giới thiệu
 Dự án này là một hệ thống tìm kiếm hình ảnh dựa trên nội dung (Content-Based Image Retrieval - CBIR). Hệ thống cho phép người dùng tìm kiếm hình ảnh tương tự bằng cách sử dụng hình ảnh đầu vào.
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/Overview-of-general-CBIR-model.png)
+![Test Image](images/Overview-of-general-CBIR-model.png)
 ## Tính năng
 - Tìm kiếm hình ảnh tương tự từ một tập hợp hình ảnh lớn.
 - Hiển thị hình ảnh tương tự với tiêu đề và thông tin liên quan.
@@ -78,40 +78,40 @@ nearest_image = [(paths[id], distance[id]) for id in ids]
 
 return nearest_image
 ```
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/eculid%20distance.png)
+![Test Image](images/eculid distance.png)
 ### 4. Kết quả:
 Hình ảnh đầu vào:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/testimg/tiger3.jpg)
+![Test Image](images/testimg/tiger3.jpg)
 
 Kết quả search:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/Figure_1.png)
+![Test Image](images/Figure_1.png)
 Tương tụ khi search với fox:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/testimg/fox2.jpg)
+![Test Image](images/testimg/fox2.jpg)
 
 Kết quả search:
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/Figure_2.png)
+![Test Image](images/Figure_2.png)
 Lion:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/testimg/lion3.jpg)
+![Test Image](images/testimg/lion3.jpg)
 
 Kết quả search:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/Figure_3.png)
+![Test Image](images/Figure_3.png)
 Cheetah:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/testimg/Cheetah2.jpg)
+![Test Image](images/testimg/Cheetah2.jpg)
 
 Kết quả search:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/Figure_4.png)
+![Test Image](images/Figure_4.png)
 Wolf:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/testimg/wolf1.jpg)
+![Test Image](images/testimg/wolf1.jpg)
 
 Kết quả search:
 
-![Test Image](https://github.com/LeThang15081994/_ImageSearch-CBIR/blob/master/Figure_5.png)
+![Test Image](images/Figure_5.png)
 
